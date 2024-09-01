@@ -23,7 +23,7 @@ async function bootstrap() {
 
 	await app.listen();
 
-	logger.log(`Auth Microservice - Testing log2`);
+	logger.log(`Auth Microservice - Testing log3`);
 	logger.log(`Auth Microservice running on port ${envs.port}`);
 }
 bootstrap();
