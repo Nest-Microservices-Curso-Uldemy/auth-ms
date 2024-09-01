@@ -7,6 +7,7 @@ steps:
         'europe-southwest1-docker.pkg.dev/microservicios-dev-434019/img-registro-ms/auth-ms',
         '-f',
         'dockerfile.prod',
+        '--platform=linux/amd64',
         '.',
       ]
   - name: 'gcr.io/cloud-builders/docker'
